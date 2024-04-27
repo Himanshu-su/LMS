@@ -1,0 +1,21 @@
+/* #datediv{
+    display:'flex';
+    width:'100%';
+    justify-content:'space-around';
+    border: 2px solid red;
+    flex-direction: row;
+} */
+
+@media only screen and (min-width:320px) and (max-width:600px){
+    #datediv {
+        display:'flex';
+        width:'100px';
+        justify-content:'space-around'; 
+         /* border: 2px solid red; */
+         flex-direction: column;
+    }
+    #datelabel{
+        margin-top: 20px;
+        margin-bottom: -15px;
+    }
+  }

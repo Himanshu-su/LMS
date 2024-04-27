@@ -1,0 +1,107 @@
+#carouselimg{
+    width: 100%;
+    height: 500px;
+    border-radius: 1%;
+   
+        }
+        /* navitem */
+        #navswiperslide{
+            /* border:1px solid gray; */
+            border-radius: 1%;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        }
+        #navitemimg{
+          width: 100%;
+          height: 180px;
+        }
+        .grlocation{
+            /* border: 2px solid red; */
+            margin-bottom: -20px;
+            margin-left: -2px;
+          }
+          .card-tour-location{
+            font-size: 13px;
+            /* margin-left: 20px; */
+          }
+          .card1-btn{
+            background-color: #5624D0;
+            color: white;
+            width:200px;
+            border: 1px solid gray;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          }  
+          .card1-btn:hover{
+            /* color: rgb(233, 230, 230); */
+            background-color: #85A30D;
+            color: white;
+          }  
+          #dummytextheading{
+            color: black;
+          } 
+          .btn-card-2{
+            background-color: rgb(242, 242, 242);
+            color: black;
+            border: 1px solid black;
+          }
+          #navcardbtn{
+            width: 150px;
+            height: 50px;
+          
+            background-color:#5624D0 ;
+            color: white;
+          }
+          #wishlistbtn{
+            width: 110px;
+            height: 40px;
+            background-color:#5624D0 ;
+            border-radius: 5%;
+            color: white;
+          }
+          #addtocartbtn{
+            width: 110px;
+            height: 40px;
+            background-color:#5624D0 ;
+            border-radius: 5%;
+            color: white;
+          }
+          #FavoriteBorderIcon{
+            font-size: 50px;
+          }
+          #navswiperslide:hover #navitemcard {
+            visibility: visible;
+          }
+          
+          /* navitem page code */
+          #FavoriteBorderIcon:hover {
+            background-color: blue; 
+            border-radius: 50%; 
+        }
+        .hoverblue:hover{
+          cursor: pointer;
+        }
+         {
+            background-color: blue; 
+            /* border-radius: 50%;  */
+        }
+        
+
+@media (max-width:600px){
+    #carouselcard {
+        display: none; /* Hide the card on mobile */
+      }
+    #carouselimg{
+width: 100%;
+height: 200px;
+border-radius: 5%;
+    }
+  
+}
+/* grid categories */
+.card-img-container {
+  overflow: hidden;
+  transition: transform 5s ease-in-out;
+}
+
+.card-img-container:hover img {
+  transform: scale(1.3); /* Increase the image size by 10% */
+}
